@@ -1,0 +1,225 @@
+body {
+      margin: 0;
+}
+a{
+      text-decoration:none;
+}
+.paragraph{
+      max-width: 1060px;
+      margin: 0 auto;
+}
+
+.head {
+      padding-top: 12pt;
+      background-color: rgb(67, 31, 7);
+      font-family: Arial, Helvetica, serif;
+      font-size: 18pt;
+}
+
+.head h1{
+      color: white;
+      font-weight: bold;
+      font-style: italic;
+      margin: 0;
+}     
+.head h1 a:visited{
+      color: white;
+}
+.head p{
+      color: #b15e23;
+      font-weight: bold;
+      font-style: italic;
+}
+.head ul{
+      padding-inline-start: 0;
+}
+.head li a:visited{
+      color: white;
+}
+.head li{
+      display:inline-flex;
+      justify-content: center;
+      color: white;
+      font-size: 12pt;
+      position: relative;
+}
+.head li::after{
+      content:' ';
+      position: absolute;
+      bottom: -16px;
+      background-image: url(menu_bullet.gif);
+      background-size: contain;
+      background-position: center;
+      width: 17px;
+      height: 11px;
+      display: none;
+}
+.head li:hover::after{
+      display: block;
+}
+.o_predmetu {
+      background-image:linear-gradient(to bottom, white, rgb(227, 227, 227));
+      margin-bottom: 1pt;
+      padding-bottom: 1pt;
+      padding-top: 1pt;
+      font-family: Arial, Helvetica, serif;
+}
+
+.o_predmetu h2{
+      color: #b15e23;
+      font-weight: bold;
+}
+.o_predmetu p{
+      margin-bottom: 80pt;
+      color: #656565;
+      text-align: justify;
+}
+.Přednašky a:visited{
+      color: #3c1f0a;
+}
+.container {
+      display: flex;
+      justify-content: center;
+      margin: 0 5px;
+}
+.container1 {
+      display: flex;
+      flex-direction: column;
+      max-width: 760px;
+
+}
+.container2{
+      display: flex;
+      justify-content: right;
+      margin-left: 45px;
+}
+.Přednašky {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      font-family: Arial, Helvetica, serif;
+      max-width: 900px;
+}
+.Pred12{
+      margin-right: 45px;
+      width: 350px;
+}
+.Pred34{
+      margin-top: 60px;
+      width: 350px;
+}
+.Pred1{
+      display: flex;
+      flex-direction: row;
+}
+.pic1{
+      display: flex;
+      flex-direction: row;
+}
+.Přednašky h2{
+      color: #b15e23;
+      font-weight: bold;
+}
+
+.Přednaška p{
+      color: #656565;
+      text-align: justify;
+	vertical-align: top;
+}
+.dot p{
+      color: #3c1f0a;
+      border-bottom-style: dotted;
+      border-color: #b15e23;
+      font-weight: bold;
+      font-family: Arial, Helvetica, serif;
+}
+.vysledky {
+      font-family: Arial, Helvetica, serif;
+}
+.vysledky h2{
+      color: #b15e23;
+      font-weight: bold;
+}
+.vysledky table {
+      width: 100%;
+      border: 3px solid #012;
+      text-align: center;
+      margin-bottom: 45px;
+}
+.vysledky thead th{
+      background-color: #d5a17c;
+      color: #656565;
+      border-top: 3px dotted #3c1f0a;
+      border-left: 3px dotted #3c1f0a;
+      border-bottom: 3px solid #3c1f0a;
+      border-right: 3px solid #3c1f0a;
+}
+.vysledky tbody td{
+      border-top: 1.5px solid #012;
+      border-bottom: 1.5px solid #656565;
+}
+.Cvičeníe a:visited{
+      color: #3c1f0a;
+}
+.Cvičeníe {
+      font-family: Arial, Helvetica, serif;
+      background-image:linear-gradient(to right, rgb(227, 227, 227), white);
+      padding-left: 20px;
+}
+.Cvičeníe h2{
+      color: #b15e23;
+      font-weight: bold;
+}
+
+.Cvičení p{
+      color: #656565;
+      text-align: justify;
+}
+.dot2 p{
+      color: #3c1f0a;
+      border-color: #b15e23;
+      font-weight: bold;
+}
+
+.dot3 {
+      border-bottom-style: dotted;
+      border-bottom-color: #b15e23;
+}
+
+.dot3 p{
+      display: inline-block;
+      margin-left: 12pt;
+}
+.Kontakty {
+      background-color: rgb(67, 31, 7);
+      font-family: Arial, Helvetica, serif;
+      display: flex;
+      flex-direction: row;
+
+}
+.kontakt{
+      margin-left: 720px;
+}
+.souvisejici{
+      margin-left: 180px;
+}
+.Kontakty h2{
+      padding-top: 24pt;
+      color:white;
+
+}
+.Kontakty a:visited{
+      color: #d5a17c;
+}
+.Kontakty p{
+      color:white;
+}
+.Kontakty ul{
+      list-style-image: url(footer_list_bullet.gif);
+}
+.Kontakty li{
+      color: #d5a17c;
+}
+.email a {
+      color:#d5a17c;
+}
