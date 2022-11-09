@@ -1,2 +1,2 @@
-# ITW-cvi-en-
-stránka ITW - tvorba webových stránek 
+# ITW-exercices
+ITW - tvorba webových stránek 
